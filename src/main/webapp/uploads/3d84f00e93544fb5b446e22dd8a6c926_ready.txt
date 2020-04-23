@@ -1,0 +1,41 @@
+1.网易云镜像，下载Mavenz,列表的最后一个
+https://mirrors.cnnic.cn/apache/maven/maven-3/3.3.9/binaries/
+
+2.Java Development Kit
+https://dl.pconline.com.cn/download/1117483-1.html?yyue=a21bo.50862.201879
+重要的事情说3遍
+普通下载！！！
+普通下载！！！
+普通下载！！！
+
+3.Teamviewer远程操控
+https://www.teamviewer.cn/cn/download/windows/
+
+4.下载Mysql,选择一个后缀为.msi的文件
+http://mirrors.163.com/mysql/Downloads/MySQL-5.5/
+
+5.下载IntelliJ Idea
+http://47.100.93.225:8082/ywj123
+
+安装详情
+https://blog.csdn.net/chenhaotao/article/details/83474921
+
+JAVA_HOME
+
+CLASSPATH
+;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+
+
+MAVEN_HOME
+
+Path
+%MAVEN_HOME%\bin
+
+ 
+<mirror>
+    <id>nexus-aliyun</id>
+    <mirrorOf>central</mirrorOf>
+    <name>Nexus aliyun</name>
+    <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+</mirror>
+
