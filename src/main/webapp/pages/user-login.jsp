@@ -27,7 +27,7 @@
 </head>
 
 
-<body class="hold-transition login-page" <%--style="background-image: url('${pageContext.request.contextPath}/img/stock.jpg')"--%>>
+<body class="hold-transition login-page" style="background-image: url('${pageContext.request.contextPath}/img/stock.jpg')">
 
 <div class="login-box ">
 

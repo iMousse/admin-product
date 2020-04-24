@@ -150,7 +150,7 @@
 </head>
 
 
-<body class="hold-transition register-page">
+<body class="hold-transition register-page" style="background-image: url('${pageContext.request.contextPath}/img/stock.jpg')">
 <div class="register-box">
 
     <div class="login-logo">
