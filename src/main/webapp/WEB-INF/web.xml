@@ -56,5 +56,15 @@
     </welcome-file-list>
 
 
+    <error-page>
+        <error-code>404</error-code>
+        <location>/user/404.do</location>
+    </error-page>
+
+    <error-page>
+        <error-code>400</error-code>
+        <error-code>500</error-code>
+        <location>/user/500.do</location>
+    </error-page>
 
 </web-app>

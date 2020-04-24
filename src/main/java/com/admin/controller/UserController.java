@@ -50,6 +50,16 @@ public class UserController {
         return "beta-template";
     }
 
+    //404
+    @RequestMapping("/404.do")
+    public String notFound(){
+        return "beta-404";
+    }
+
+    @RequestMapping("/500.do")
+    public String error(){
+        return "beta-500";
+    }
 
     //进入登录界面
     @GetMapping("/login.do")
